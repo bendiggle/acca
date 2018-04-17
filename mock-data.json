@@ -1,0 +1,43 @@
+{
+  "data": [{
+    "userID": "1",
+    "username": "Marcus Fenix",
+    "postId": "1",
+    "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }, {
+    "userID": "2",
+    "username": "Dom",
+    "postId": "2",
+    "post": "Lorem ipsum dolor sit amet"
+  }, {
+    "userID": "3",
+    "username": "Baird",
+    "postId": "3",
+    "post": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }, {
+    "userID": "4",
+    "username": "Cole Train",
+    "postId": "4",
+    "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }, {
+    "userID": "5",
+    "username": "Anya",
+    "postId": "5",
+    "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  }, {
+    "userID": "6",
+    "username": "JD",
+    "postId": "6",
+    "post": "Lorem ipsum dolor sit amet"
+  }, {
+    "userID": "7",
+    "username": "General Raam",
+    "postId": "7",
+    "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }, {
+    "userID": "8",
+    "username": "Skorge",
+    "postId": "8",
+    "post": "Lorem ipsum dolor sit amet fwefwwfewgwegwegwegewggwe"
+  }]
+}

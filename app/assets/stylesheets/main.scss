@@ -13,6 +13,16 @@ header, footer {
   padding: 10px 50px;
 }
 
+.post {
+
+  padding-top: 10px;
+  border-bottom: 1px solid #eee;
+
+  #username {
+    font-weight: 700;
+  }
+}
+
 #logo {
   float: left;
   width: 30%;
