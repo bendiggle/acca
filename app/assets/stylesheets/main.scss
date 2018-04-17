@@ -4,9 +4,61 @@
 header, footer {
   display: inline-block;
   width: 100%;
-  height: 6.5rem;
+  height: 4.3em;
+}
+
+#header {
+  background-color: white;
+  width: 100%;
+  height: 4.3em;
+  position: fixed;
+  top: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+
+  #logo {
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+  }
+
+  .navbar {
+    float: left;
+    display: block;
+    height: 6.5rem;
+    z-index: 99;
+
+    > .container {
+      width: 100%;
+
+      .navbar-list {
+        list-style: none;
+        margin-bottom: 0;
+
+        .navbar-item {
+          position: relative;
+          float: left;
+          margin-bottom: 0;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #33C3F0;
+          }
+
+          .navbar-link {
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: .2rem;
+            margin: 0 20px;
+            text-decoration: none;
+            line-height: 6.5rem;
+            color: #222;
+          }
+        }
+      }
+    }
+  }
 }
 
 #main {
@@ -14,51 +66,10 @@ header, footer {
 }
 
 .post {
-
   padding-top: 10px;
   border-bottom: 1px solid #eee;
 
   #username {
     font-weight: 700;
-  }
-}
-
-#logo {
-  float: left;
-  width: 30%;
-  padding-left: 50px;
-}
-
-.navbar {
-  float: left;
-  display: block;
-  width: 40%;
-  height: 6.5rem;
-  z-index: 99;
-
-  > .container {
-    width: 100%
-  }
-}
-
-.navbar-list {
-  list-style: none;
-  margin-bottom: 0;
-
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0;
-    
-    .navbar-link {
-      text-transform: uppercase;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: .2rem;
-      margin-right: 35px;
-      text-decoration: none;
-      line-height: 6.5rem;
-      color: #222;
-    }
   }
 }
