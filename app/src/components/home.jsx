@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../../mock-data.json';
+import postData from '../../../mock-data.json';
 
 class Home extends React.Component {
     constructor() {
