@@ -14,4 +14,4 @@ const AppRouter = () => {
     )
 };
 
-render(<AppRouter />, document.querySelector('#root'));
+render(<AppRouter />, document.getElementById('root'));
