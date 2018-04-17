@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from './postBet';
 import postData from '../../../mock-data.json';
 
 class Home extends React.Component {
@@ -16,14 +17,20 @@ class Home extends React.Component {
         );
     }
 
-    render() {
+    handlePostSubmit(newPost) {
+        const postData = this.state.postData;
+        postData.data.push(newPost);
+        this.setState({postData});
+    }
 
+    render() {
         const posts = this.state.postData.data.map(post => {
             return this.displayPost(post);
         });
 
         return (
             <main className="">
+                <Post handleSubmit={this.handlePostSubmit.bind(this)}/>
                 <h1>Home</h1>
                 <div>{posts}</div>
             </main>
